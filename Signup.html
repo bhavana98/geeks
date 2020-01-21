@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css.map">    
+        <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="SignUpStyle.css">
+    </head>
+    <body>
+        <div class="row">
+        <h1 class="heading">Signin to your Dashboard</h1>
+        <a class="cross" href="index.html">&#10060;</a></div>
+        <div class="row">
+            
+            <div class="col"></div>
+            <div class="col-5">
+               <br>
+                <div class="content">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><b>Signup</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><b>Login</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><b>Contact</b></a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> 
+                            <form class="forms">
+                                <div class="formfields">
+                                    <input type="email" class="form-control" id="emailsignup" placeholder="Email Address">
+                                </div>
+                                <div class="formfields">
+                                    <input type="password" class="form-control" id="passwordsignup" placeholder="Password">
+                                </div>
+                                <div class="formfields">
+                                    <input type="password" class="form-control" id="repasswordsignup" placeholder="Retype Password">
+                                </div>
+                                <div class="formfields">
+                                    <button type="submit" class="btsubmit">Sign up</button>          </div>
+                                <div class="formfields">
+                                    <p class="member">Already a member? <a href="#profile-tab"><b>login</b></a></p></div>     
+                                <div class="row formfields">
+                                <a href="https://www.facebook.com/" class="fbicon"><img src="SourceFiles/fbicon.png" alt="signin with fb"></a>
+                                   <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fplus.google.com%2Fapps%2Factivities&followup=https%3A%2F%2Fplus.google.com%2Fapps%2Factivities&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="googleplusicon"><img src="SourceFiles/google+icon.png" alt="signin with google+"></a> 
+                                
+                                </div>
+                            </form></div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab" style="font-size:30px;"><form class="forms">
+                                <div class="formfields">
+                                    <input type="email" class="form-control" id="emailsignup" placeholder="Email Address">
+                                </div>
+                                <div class="formfields">
+                                    <input type="password" class="form-control" id="passwordsignup" placeholder="Password">
+                                </div>
+                                <div class="formfields">
+                                    <button type="submit" class="btsubmit">Sign up</button>          </div>
+                                <div class="formfields">
+                                    <p class="member">Still not a member? Hurryup!<a href="#home-tab"><b>Signup</b></a></p></div>
+                            </form>
+											</div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab" style="font-size:30px;">Chase our Crazy Stuff</div>
+                    </div>   
+                </div> 
+            </div>
+            <div class="col"></div>
+        </div>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+        </body>
+
+</html>
