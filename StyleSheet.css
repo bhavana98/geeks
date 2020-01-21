@@ -1,0 +1,181 @@
+html{
+    min-height: 100%;
+	position: relative;
+}
+body{
+	height: 100%;
+}
+nav,header,footer{
+    display: block;
+}
+.container{
+    background-color: none;
+}
+nav{
+    width: 100%;
+    margin: 0;
+}
+nav ul{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ul.top-nav li{
+    list-style: none;
+    float: right;
+    display: block;
+    text-decoration:none;
+    min-height: 16px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+ul.top-nav li a{
+    color: #ffffff;
+    padding: 14px;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration-line: none;
+}
+ul.top-nav li a:hover{
+    background-color: rgb(30, 89, 15); 
+}
+ul.top-nav li.dropdownicon{
+    display: none;
+}
+.header{
+    background-color: black;
+    border-bottom-color: white;
+}
+.GeeksTRM{
+    color: white;
+	  font-size: 50px;
+}
+.middle{
+	text-align: center;
+}
+
+.jumbotron{
+    background: none;
+    color: black;
+}
+
+.GEEKS{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 110px;
+    text-align: center;
+	margin: 0;
+	color:black;
+}
+.LEAD{
+    font-family: URW Chancery L, cursive;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: bold;
+	color:black; 
+}
+/*
+.NavbarItem1,.NavbarItem2,.NavbarItem3,.NavbarItem4,.NavbarItem5,.NavbarItem6{
+color:#ffffff; 
+font-style:Verdana,sans-serif;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: auto;
+font-size: 20px}*/
+.buttonsjs{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.btJoinUs{
+    background-color: transparent;
+    border: none;
+    color: rgb(56,63,207);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 5px 4px 3px rgb(56,63,207);
+    -moz-box-shadow: 5px 4px 3px rgb(56,63,207);
+    box-shadow: 5px 4px 3px rgb(56,63,207);
+}
+
+.btService{
+    background-color: transparent;
+    border: none;
+    color: rgb(56,63,207);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 5px 4px 3px rgb(56,63,207);
+    -moz-box-shadow: 5px 4px 3px rgb(56,63,207);
+    box-shadow: 5px 4px 3px rgb(56,63,207);
+}
+button a{
+    color: rgb(56,63,207);
+    text-align: center;
+    text-decoration-line: none;
+
+}
+button a:hover{
+    text-decoration-line: none;
+    color: black;
+}
+button:hover{
+    background-color: transparent;
+}
+.click{
+    font-size: 15px;
+}
+.joinus{
+    font-style:italic;
+    font-family: monospace;
+    font-weight: 800; 
+}
+.service{
+    font-style:italic;
+    font-family: monospace;
+    font-weight: 800; 
+}
+.txtjoinus{
+    padding-right:0;
+    float: right;
+}
+.body3{
+    background-image: url('SourceFiles/bgcontactus.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contactus{
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 50px;
+    padding-top: 6rem;
+}
+.number{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding-top: 2rem;
+}
