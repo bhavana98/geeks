@@ -1,0 +1,82 @@
+html{height: 100%;
+}
+body{
+    background-image: url('SourceFiles/pottermore-hogwarts-experience.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heading{
+   padding-left: 28rem;
+    padding-top: 30px;
+}
+.cross{
+    padding-top: 25px;
+    padding-left: 350px;
+    font-size: 30px;
+    text-decoration-line: none;
+}
+.cross:hover{
+    text-decoration-line: none;
+}
+.content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.forms{
+    width: 20rem;
+    padding-top: 20px;
+
+}
+.formfields{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+#home-tab{
+padding-left: 20px;
+    padding-right: 20px;;
+    font-size: 20px;
+}
+#profile-tab{
+padding-left: 20px;
+    padding-right: 20px;;
+    font-size: 20px;
+}
+#contact-tab{
+padding-left: 20px;
+    padding-right: 20px;;
+    font-size: 20px;
+}
+.form-controls{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.member{
+    text-align: center;
+}
+#emailsignup{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#passwordsignup{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#repasswordsignup{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btsubmit{
+    width: 20rem;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.fbicon{
+    padding-left: 50px;
+}
+.fbicon:hover{
+    
+}
